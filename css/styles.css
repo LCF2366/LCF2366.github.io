@@ -1,0 +1,194 @@
+/*
+    Author: Nirajan Mahara
+    Date: Oct 20, 2023
+    File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for div container class content */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Style rules for header content */
+header {
+    background-color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style rules for navigation area */
+nav {
+    background-color: #000000;
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Navigation Links Styling */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+
+main {
+    display: block;
+    text-align: center;
+    background-color: #000000;
+    font-size: 1em;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.5em;
+}
+
+h1 {
+    color: #f4f4f4;
+}
+h2 {
+    color: #d0d0d0;
+}
+
+section h2, section p{
+    color: #000;
+}
+
+p {
+    color: #d1d1d1;
+}
+
+li {
+    color: #d1d1d1;
+    list-style-type: none;
+    line-height: 1.5em;
+    height: auto;
+}
+
+img {
+    border-radius: 7px;
+    max-width: 100%;
+}
+
+/* Style rules for footer content */
+footer {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 20px;
+}
+footer a {
+    color: #4645a8;
+    text-decoration: none;
+}
+
+
+/* specials page css */
+
+.product-of-the-week {
+    text-align: center;
+}
+.product-of-the-week .product {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+    text-align: center;
+}
+
+.weekly-sales {
+    text-align: center;
+}
+.weekly-sales .sales-item {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+    text-align: center;
+}
+
+.banner img, .product-of-the-week img, .weekly-sales img, .customer-guarantee img, .reasons-to-buy img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.customer-guarantee {
+    text-align: center;
+}
+
+.reasons-to-buy {
+    text-align: center;
+}
+.reasons-to-buy .reason {
+    width: 21%;
+    float: left;
+    margin: 0 2%;
+    text-align: center;
+}
+
+.customer-guarantee p {
+    font-weight: bold;
+}
+.customer-guarantee img {
+    border: none;
+    height: 100px;
+    width: auto;
+}
+
+.reasons-to-buy p {
+    margin-top: 5px;
+}
+.reasons-to-buy img {
+    border: none;
+    height: 50px;
+    width: auto;
+}
+
+
+/* about page css */
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 550px), print {
+    .viewport.tablet {
+        display: block;
+    }
+    .viewport.desktop {
+        display: none;
+    }
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 769px), print {
+    .viewport.desktop {
+        display: block;
+    }
+}
+
+/* Media Query for Print */
+@media print {
+    body {
+        background-color: #fff;
+        color: #000;
+    }
+}
