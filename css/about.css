@@ -1,0 +1,55 @@
+/* About Page Styling */
+.viewport {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.viewport h2 {
+    color: #fff;
+}
+
+.viewport p {
+    color: #fff;
+    line-height: 1.5em;
+}
+
+.viewport ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.viewport ol li {
+    color: #fff;
+    list-style-type: none;
+    line-height: 1.5em;
+    height: auto;
+}
+
+.viewport ol li strong {
+    font-weight: bold;
+}
+
+.viewport img {
+    border-radius: 7px;
+    max-width: 100%;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 550px),
+print {
+    .viewport.tablet {
+        display: block;
+    }
+
+    .viewport.desktop {
+        display: none;
+    }
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 769px),
+print {
+    .viewport.desktop {
+        display: block;
+    }
+}

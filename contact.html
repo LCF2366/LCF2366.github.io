@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <title>Contact Us</title>
+    </head>
+    
+    <body>
+        <div class="container">
+            <header>
+                <a href="index.html"><img src="images/banner.jpg" alt="Salt & Pepper Mills Logo" height="100"></a>
+                
+            </header>
+            <nav>
+                <a href="index.html">Home</a>&nbsp;&nbsp;
+                <a href="about.html">About</a>&nbsp;&nbsp;
+                <a href="team.html">Our Team</a>&nbsp;&nbsp;
+                <a href="specials.html">Specials</a>&nbsp;&nbsp;
+                <a href="training.html">Training</a>&nbsp;&nbsp;
+                <a href="media.html">Media</a>&nbsp;&nbsp;
+                <a href="faqs.html">FAQs</a>&nbsp;&nbsp;
+                <a href="contact.html">Contact Us</a>
+            </nav>
+
+            <main>
+                <h1>Contact Us</h1>
+
+                <form action="submit_form.php" method="post">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div>
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+                        </div>
+                    </fieldset>
+
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+
+                    <div>
+                        <label for="department">Select Department:</label>
+                        <select id="department" name="department">
+                            <option value="sales">Sales</option>
+                            <option value="support">Support</option>
+                            <option value="billing">Billing</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label>Preferred Contact Method:</label>
+                        <label><input type="radio" name="contactMethod" value="email" checked> Email</label>
+                        <label><input type="radio" name="contactMethod" value="phone"> Phone</label>
+                    </div>
+
+                    <div>
+                        <label><input type="checkbox" id="subscribe" name="subscribe" checked> Subscribe to Newsletter</label>
+                    </div>
+
+                    <div>
+                        <button type="submit">Submit Request</button>
+                        <button type="reset">Reset Form</button>
+                    </div>
+                </form>
+            </main>
+
+            <footer>
+                &copy; Copyright 2099. All Rights Reserved.<br>
+                <a href="mailto:info@saltandpeppermills.com">Request information</a><br>
+                Nirajan Mahara&nbsp;&nbsp; C0921977
+            </footer>
+        </div>
+    </body>
+</html>
