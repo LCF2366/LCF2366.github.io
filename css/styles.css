@@ -1,7 +1,6 @@
 /*
-    Author: Nirajan Mahara
-    Date: Oct 29, 2023
-    File Name: styles.css
+    Student Name:   Nirajan Mahara
+	Student Number: C0921977
 */
 
 /* CSS Reset */
@@ -10,11 +9,14 @@ header,
 nav,
 main,
 footer {
-    background-color: #f9f9f9;
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 /* Style rules for div container class content */
