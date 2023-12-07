@@ -28,6 +28,9 @@
 .training-table tbody tr:nth-child(even) {
     background-color: #f9f9f9;
 }
+.training-table tbody tr:nth-child(odd) {
+    background-color: #c5c5c5;
+}
 
 .training-table tbody tr:hover {
     background-color: #e0e0e0;
