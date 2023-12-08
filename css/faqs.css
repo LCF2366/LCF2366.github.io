@@ -1,0 +1,17 @@
+.faq-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #646464;
+    border-radius: 5px;
+    background-color: #0a0a0a;
+}
+
+.faq-item h3 {
+    color: #d7d7d7;
+    font-size: 1.2em;
+}
+
+.faq-item p {
+    color: #b8b8b8;
+    font-size: 1em;
+}

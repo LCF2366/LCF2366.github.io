@@ -5,11 +5,11 @@
 }
 
 .viewport h2 {
-    color: #fff;
+    color: #6600ff;
 }
 
 .viewport p {
-    color: #fff;
+    color: #d8d8d8;
     line-height: 1.5em;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .viewport ol li strong {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .viewport img {

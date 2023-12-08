@@ -54,3 +54,11 @@ button[type="reset"] {
 button[type="reset"]:hover {
     background-color: #ab0b00;
 }
+
+.tel-link, .email-link {
+    color: #aaaaaa;
+    text-decoration: none;
+}
+.tel-link:hover, .email-link:hover {
+    color: #ffffff;
+}
